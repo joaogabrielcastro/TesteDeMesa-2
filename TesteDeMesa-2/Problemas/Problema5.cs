@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace JurosFinanceirosApp.Problemas
 {
@@ -7,27 +7,27 @@ namespace JurosFinanceirosApp.Problemas
         public static void Executar()
         {
             Console.Clear();
-            Console.WriteLine("--- Problema 5: Cálculo Inverso (Encontrar Valor Presente) ---");
+            Console.WriteLine("--- Problema 5: Cálculo do Valor Presente para Juros Simples ---");
+            Console.WriteLine("--- Baseado na taxa mensal do Problema 2, convertida para anual simples ---");
 
-          
-            double valorFuturoDesejado = 7390.61;
-            double taxaJurosMensal = 0.0125; 
-            int periodoMeses = 6; 
-
-            Console.WriteLine($"Valor Futuro Desejado: {valorFuturoDesejado:C2}");
-            Console.WriteLine($"Taxa de Juros Mensal: {taxaJurosMensal:P2}");
-            Console.WriteLine($"Período: {periodoMeses} meses\n");
+            double valorFuturo = 7390.61;
 
            
-            double fatorAcumulacao = Math.Pow((1 + taxaJurosMensal), periodoMeses);
+            double taxaJurosMensal = 0.0125; 
 
- 
-            double valorPresenteNecessario = valorFuturoDesejado / fatorAcumulacao;
+            
+            double taxaJurosAnual = taxaJurosMensal * 12; 
 
-            Console.WriteLine("--- Resultados ---");
-            Console.WriteLine($"Para atingir um Valor Futuro de {valorFuturoDesejado:C2}");
-            Console.WriteLine($"Com uma Taxa de {taxaJurosMensal:P2} a.m. por {periodoMeses} meses,");
-            Console.WriteLine($"Você precisaria investir um Valor Presente de: {valorPresenteNecessario:C2}");
+            int periodoAnos = 2; 
+
+            Console.WriteLine($"\nValor Futuro (VF): {valorFuturo:C2}");
+            Console.WriteLine($"Taxa de Juros Mensal (do Problema 2): {taxaJurosMensal:P2}");
+            Console.WriteLine($"Taxa de Juros Anual (derivada para juros simples): {taxaJurosAnual:P2}");
+            Console.WriteLine($"Período (t): {periodoAnos} anos\n");
+
+            double valorPresente = valorFuturo / (1 + (taxaJurosAnual * periodoAnos));
+
+            Console.WriteLine($"O Valor Presente (VP) seria: {valorPresente:C2}");
             Console.WriteLine("------------------------------------------------------------------");
         }
     }
