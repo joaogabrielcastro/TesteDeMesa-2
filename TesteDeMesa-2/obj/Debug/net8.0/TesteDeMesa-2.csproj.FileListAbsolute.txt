@@ -1,0 +1,14 @@
+C:\Users\joaow\source\repos\TesteDeMesa-2\TesteDeMesa-2\bin\Debug\net8.0\TesteDeMesa-2.exe
+C:\Users\joaow\source\repos\TesteDeMesa-2\TesteDeMesa-2\bin\Debug\net8.0\TesteDeMesa-2.deps.json
+C:\Users\joaow\source\repos\TesteDeMesa-2\TesteDeMesa-2\bin\Debug\net8.0\TesteDeMesa-2.runtimeconfig.json
+C:\Users\joaow\source\repos\TesteDeMesa-2\TesteDeMesa-2\bin\Debug\net8.0\TesteDeMesa-2.dll
+C:\Users\joaow\source\repos\TesteDeMesa-2\TesteDeMesa-2\bin\Debug\net8.0\TesteDeMesa-2.pdb
+C:\Users\joaow\source\repos\TesteDeMesa-2\TesteDeMesa-2\obj\Debug\net8.0\TesteDeMesa-2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joaow\source\repos\TesteDeMesa-2\TesteDeMesa-2\obj\Debug\net8.0\TesteDeMesa-2.AssemblyInfoInputs.cache
+C:\Users\joaow\source\repos\TesteDeMesa-2\TesteDeMesa-2\obj\Debug\net8.0\TesteDeMesa-2.AssemblyInfo.cs
+C:\Users\joaow\source\repos\TesteDeMesa-2\TesteDeMesa-2\obj\Debug\net8.0\TesteDeMesa-2.csproj.CoreCompileInputs.cache
+C:\Users\joaow\source\repos\TesteDeMesa-2\TesteDeMesa-2\obj\Debug\net8.0\TesteDeMesa-2.dll
+C:\Users\joaow\source\repos\TesteDeMesa-2\TesteDeMesa-2\obj\Debug\net8.0\refint\TesteDeMesa-2.dll
+C:\Users\joaow\source\repos\TesteDeMesa-2\TesteDeMesa-2\obj\Debug\net8.0\TesteDeMesa-2.pdb
+C:\Users\joaow\source\repos\TesteDeMesa-2\TesteDeMesa-2\obj\Debug\net8.0\TesteDeMesa-2.genruntimeconfig.cache
+C:\Users\joaow\source\repos\TesteDeMesa-2\TesteDeMesa-2\obj\Debug\net8.0\ref\TesteDeMesa-2.dll
